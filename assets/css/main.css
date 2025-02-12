@@ -312,6 +312,7 @@ h6 {
     opacity: 1;
     top: 100%;
     visibility: visible;
+    left: calc(100% - 100px);
   }
 
   .navmenu .dropdown .dropdown ul {
@@ -1807,6 +1808,23 @@ section,
 
 .contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+/*--------------------------------------------------------------
+# Arabic - Contact Section
+--------------------------------------------------------------*/
+html[lang="ar"] .contact .info-item i {
+  font-size: 20px;
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-left: 15px;
 }
 
 /*--------------------------------------------------------------
